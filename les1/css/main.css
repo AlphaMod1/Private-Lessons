@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+/* .qw {
+    color: red;
+}
+
+#my-id {
+    color: blue;
+}
+
+.my-div > .div1 > p:nth-of-type(even){
+    color: pink;
+}
+span{
+    transition: 0.5s;
+}
+span:hover {
+    color: green;
+    font-size:69px;
+} */
+
+/* p{
+    color:pink;
+} */
+
+.box * {
+    display: block;
+}
+
+.box {
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    text-align-last: center;
+}
+
+.div1 {
+    position: relative;
+    background-color: red;
+    width: 600px;
+    height: 600px;
+}
+
+.cont {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+input{
+    transition: 0.5s;
+}
+
+input:focus{
+    background-color: green;
+}
