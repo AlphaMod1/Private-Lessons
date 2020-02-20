@@ -17,16 +17,19 @@
     <div class="bg">
         <!-- Hero start -->
         <div class="hero container">
-            Hero
+            <img class='fucking_logo' src="./img/icon-logo.png">
+            <h1>Coming soon?</h1>
+            <p>An awesome new company for web resources is coming very soon. Enter your email to request an early invitation!</p>
         </div>
         <!-- Hero end -->
 
         <!-- About start -->
         <div class="about container">
-            
+
             <div class="about_box-left">
                 <h3>ABOUT STARTUP</h3>
-                <p>Matrox material design multi-purpose html template. It comes with huge content and background variants.<a href=''>Matrox</a> is coming very soon. We are nearly there..</p>
+                <p>Matrox material design multi-purpose html template. It comes with huge content and background
+                    variants.<a href=''> Matrox</a> is coming very soon. We are nearly there..</p>
                 <div class="progbars">
                     <span class="prog-title">UX design</span>
                     <span class="prog-prog">90%</span>
@@ -49,13 +52,14 @@
 
             <div class="about_box-right">
                 <h3>HAVE ANY QUESTION?</h3>
-                <p>You can use contact form below or contact us via e-mail at: <a href="">net@gmail.com</a>. Contact form is fully working and very easy to customize.</p>
-                <input type="text">
-                <input type="text">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="button">
+                <p>You can use contact form below or contact us via e-mail at: <a href=""> net@gmail.com</a>. Contact
+                    form is fully working and very easy to customize.</p>
+                <input placeholder="Name" class='name' type="text">
+                <input placeholder="Surname" class='surname' type="text">
+                <textarea placeholder="Message" class='msg' name="" id="" cols="30" rows="10"></textarea>
+                <input class='btn-send' value='Send message' type="button">
             </div>
-
+            <input class='scroll-up-btn' type="button" value="^">
         </div>
         <!-- About end -->
 
@@ -65,6 +69,22 @@
         </div>
         <!-- Footer end -->
     </div>
+
+    <script>
+
+        document.querySelector('.scroll-up-btn').addEventListener('click', () => {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        });
+
+        // document.querySelectorAll('p').forEach((element)=>{
+        //     element.style.color = 'green';
+        // })
+
+        // document.querySelector('.hero').innerHTML = 'LOGO';
+
+    </script>
+
 </body>
 
 </html>

@@ -2,7 +2,9 @@ html{
     scroll-behavior: smooth;
 }
 
-
+body{
+    /* font-family: raleway,sans-serif; */
+}
 
 .bg{
     background-image: url("../img/banner.jpg");
