@@ -1,3 +1,64 @@
-.footer{
+.footer {
     background-color: #333;
+    height: 420px;
+    margin-bottom: -4px;
+}
+
+.soc-box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer .fa {
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.footer .fa-facebook {
+    padding: 10px 16px;
+}
+
+.footer .fa-linkedin {
+    padding: 10px 12px;
+}
+
+.footer .fa-google-plus {
+    padding: 10px 7px;
+}
+
+.footer .fa:hover {
+    color: rgb(64, 182, 255);
+    background-color: #fff;
+}
+
+.footer .line {
+    background-color: #fff;
+    margin-left: 10%;
+    width: 80%;
+    height: 1px;
+}
+
+.footer .logo {
+    width: 240px;
+    margin-top: 30px;
+    margin-left: calc((100% - 240px) / 2);
+}
+
+.footer .credits{
+    margin-top: 30px;
+    color: gray;
+    text-align: center;
+}
+
+.footer .credits *{
+    margin-bottom: 10px;
+}
+
+.footer .credits a{
+    color: #fff;
+    text-decoration: none;
 }
